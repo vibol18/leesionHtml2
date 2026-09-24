@@ -1,0 +1,9 @@
+//difinition list
+//dt description term
+//dd description detail
+//background-color : chang background color
+//color : chang text color 
+//table
+//th = table theader
+//tr = table row
+//td = table data
