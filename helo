@@ -1,0 +1,13 @@
+//style call:
+3
+//inline
+//internal
+/external
+//style:
+color:for text color
+background-color: background color
+//font size: komnot tumhum arksor
+//text align: chang place of text
+display:
+display flex : row
+display flex + flex-decoration:column : column
