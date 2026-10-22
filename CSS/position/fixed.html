@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css" integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        :root{
+            --danger:red;
+            --secondary:gray;
+        }
+        .header{
+            background-color: var(--secondary);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 40px;
+            font-weight: 700;
+            color: whitesmoke;
+        }
+        .navbar{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            box-shadow: 1px 1px 7px;
+            height: 70px;
+
+        }
+        .menu{
+            display: flex;
+            list-style: none;
+            gap: 20px;
+        }
+        .menu a{
+            text-decoration: none;
+            font-size: 30px;
+            font-weight: bold;
+            color: black;
+            letter-spacing: -1px;
+            text-transform: uppercase;
+            font-family:Arial, sans-serif;
+        }
+        .logo img{
+            height: 40px;
+        }
+
+        .icon{
+            display: flex;
+            gap: 25px;
+            align-items: center;
+
+
+        }
+        .icon .cam-flag{
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+        }
+        .icon i{
+            font-size: 20px;
+        }
+        .icon input{
+            height: 30px;
+            border-radius: 5px;
+            width: 250px;
+            border: none;
+            box-shadow: 1px 1px 3px;
+        }
+
+    
+
+
+
+    </style>
+</head>
+<body>
+    <div class="header">ចំណាយចាប់ពី US140 ដឹកជញ្ជូនឥតគិតថ្លៃ</div>
+    <nav class="navbar">
+        <ul class="menu">
+            <li><a href="">Women</a></li>
+            <li><a href="">Man</a></li>
+            <li><a class="beuty" href="" style="color: red;">Beuty</a></li>
+            <li><a href="">Kids</a></li>
+            <li><a href="">Life Style</a></li>
+        </ul>
+
+        <div class="logo">
+            <img src="https://zandoshops.com/images/logos/ZANDO-NEW-LOGO-2025.png" alt="">
+        </div>
+
+        <div class="icon">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7ASQmG8iQUwQ_cM7sMBe6N82QosDAojls9czBDRAtCg&s=10" alt="" class="cam-flag">
+            <input type="text" placeholder="Search">
+            <i class="fa-regular fa-user"></i>  
+            <i class="fa-regular fa-bell"></i>
+            <i class="fa-solid fa-cart-shopping"></i>
+        </div>
+        <div class=""></div>
+    </nav>
+</body>
+</html>
