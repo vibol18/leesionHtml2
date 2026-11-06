@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css" integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    .navbar{
+        display: flex;
+        height: 56px;
+        width: 100%;
+        justify-content: space-between;
+        z-index: 1000;
+        top: 0;
+        position: fixed;
+        align-items: center;
+        box-shadow: 1px 2px 5px ;
+
+    }
+    .logo{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    .logo img{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+    }
+    .search{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: gray;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .menu{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    .menu i{
+        font-size: 20px;
+    }
+    .plus{
+        background-color: gray;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .message{
+        background-color: gray;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .bell{
+        background-color: gray;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .icon{
+        display: flex;
+        align-items: center;
+        gap: 80px;
+    }
+    .icon i{
+        font-size: 30px;
+    }
+    .select{
+        background-color: gray;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container{
+        padding-top: 90px;
+        width: min(100% - 32px, 1119px);
+        margin: auto;
+    }
+    .cover{
+        background-color: gray;
+        width: 100%;
+        height: 300px;
+    }
+    .profile{
+        background-color: aquamarine;
+        width: 170px;
+        height: 170px;
+        border-radius: 50%;
+       position: relativ;
+        
+    }
+    .products{
+        margin-top: 1200px;
+    }
+</style>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/e/ee/Logo_de_Facebook.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original" alt="">
+            <div class="search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        </div>
+
+        <div class="icon">
+            <i class="fa-solid fa-house"></i>
+            <i class="fa-solid fa-flag"></i>
+            <i class="fa-solid fa-video"></i>
+            <i class="fa-solid fa-store"></i>
+            <i class="fa-solid fa-bars"></i>
+        </div>
+
+        <div class="menu">
+            <div class="plus">
+            <i class="fa-solid fa-plus"></i>
+            </div>
+            <div class="message">
+                <i class="fa-regular fa-message"></i>
+            </div>
+            <div class="bell">
+                <i class="fa-regular fa-bell"></i>
+            </div>
+            <div class="select">
+                <i class="fa-solid fa-filter"></i>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="products">
+            Product 
+        </div>
+
+        <div class="about">
+            Product 
+        </div>
+
+        <div class="products">
+            Product 
+        </div>
+
+        <div class="products">
+            Product 
+        </div>
+    </div>
+</body>
+</html>

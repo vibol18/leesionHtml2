@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css" integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg==" crossorigin="anonymous" referrerpolicy="no-referrer">  
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+            height: 100vh;
+            background-color: antiquewhite;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .form_login{
+            background-color: aliceblue;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            width: 400px;
+            height: 430px;
+            border-radius: 15px;
+            
+        }
+        .profile{
+            margin: auto;
+            margin-top: 20px;
+            border-radius: 50%;
+            background-color: pink;
+            width: 100px;
+            height: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .profile i{
+            font-size: 70px;
+            font-weight: 100;
+        }
+        .form_input{
+            display: flex;
+            flex-direction: column;
+            margin: auto;
+            width: 90%;
+            margin-top: 70px;
+            gap: 40px;
+        }
+        .form_input input{
+            height: 45px;
+            border-radius: 10px;
+            border: none;
+
+        }
+        .button{
+            display: flex;
+            justify-content: center;
+            margin-top: 40px;
+        }
+        .button-login{
+            background-color: green;
+            height: 40px;
+            width: 130px;
+           border-radius: 10px;
+           border: none;
+           color: white;
+           font-weight: 700;
+
+        }
+    </style>
+</head>
+<body>
+    <form action="" class="form_login">
+        <div class="profile">
+            <i class="fa-regular fa-user"></i>
+        </div>
+        <div class="form_input">
+            <input type="text" placeholder="username......">
+            <input type="password" placeholder="......"  >
+             
+        </div>
+        <div class="button">
+        <button class="button-login">Login</button>
+        </div>
+       
+    </form>
+</body>
+</html>

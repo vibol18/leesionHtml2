@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css" integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .dashboard-container{
+            display: flex;
+        }
+        .navbar{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border: 1px solid black;
+        }
+        .sidebar{
+            height: 100vh;
+            box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+            width: 20%;
+        }
+        .logo{
+            font-family: monospace;
+            font-weight: 700;
+            display: flex;
+            font-size: 25px;
+            justify-content: center;
+            color: gray;
+        }
+        .sidebar-menu{
+            display: flex;
+            flex-direction: column;
+            padding: 30px 20px;
+            gap: 30px;
+            list-style: none;
+            margin-top: 30px;
+            margin-left: 20px;
+        }
+        .sidebar-menu a{
+            font-family: sans-serif;
+            text-decoration: none;
+            font-size: 20px;
+            color: gray;
+            font-weight: 700;
+        }
+        .sidebar-menu li {
+            display: flex;
+            align-items: center;
+        }
+        li a i{
+            font-size: 19px;
+            font-weight: 600;
+            margin-right: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="dashboard-container">
+        <div class="sidebar">
+            <div class="logo">Logoipsum</div>
+            <div class="sidebar-menu">
+                <li><a href=""><i class="fa-solid fa-box"></i>Dashboard</a></li>
+                <li><a href=""><i class="fa-solid fa-pen-to-square"></i>Form</a></li>
+                <li><a href=""><i class="fa-solid fa-list"></i>List</a></li>
+                <li><a href=""><i class="fa-regular fa-user"></i>Profile</a></li>
+                <li><a href=""><i class="fa-solid fa-check"></i>Result</a></li>
+                <li><a href=""><i class="fa-solid fa-triangle-exclamation"></i>Exception</a></li>
+                <li><a href=""><i class="fa-solid fa-circle-user"></i>Account</a></li>
+            </div>
+        </div>
+        <!-- main dashboard -->
+        <div class="main-dashborad">
+            <div class="navbar">
+                <div class="menu">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+
+                <div class="icon-logo">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
