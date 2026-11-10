@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <style>
     *{
@@ -11,8 +12,28 @@
         margin: 0;
         box-sizing: border-box;
     }
+.loader {
+  --color-1: #fff;
+  --size: 1px;
+  width: calc(48 * var(--size));
+  height: calc(48 * var(--size));
+  border: calc(5 * var(--size)) solid var(--color-1);
+  border-bottom-color: transparent;
+  border-radius: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+}
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
     body{
-        background-color: burlywood;
         height: 100vh;
         display: flex;
         justify-content: center;
@@ -25,7 +46,7 @@
         height: 400px;
         display: flex;
         flex-direction: column;
-        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     }
     .product-card img{
         margin: auto;
@@ -55,6 +76,87 @@
         </div>
 
 
+         <div class="product-card">
+            <img src="https://www.antsylabs.com/cdn/shop/articles/should-i-buy-running-shoes-online-998538.jpg?v=1659735992" alt="" class="product-img" width="300px">
+            <div class="title">
+                <div class="text">Sticer of white</div>
+                <button>+Add Project</button>
+            </div>
+            <div class="products-name">NIKE</div>
+            <div class="price"></div>
+            <div class="product-color">
+                <div class="blue"></div>
+                <div class="green"></div>
+                <div class="pink"></div>
+            </div>
+        </div>
+
+
+         <div class="product-card">
+            <img src="https://www.antsylabs.com/cdn/shop/articles/should-i-buy-running-shoes-online-998538.jpg?v=1659735992" alt="" class="product-img" width="300px">
+            <div class="title">
+                <div class="text">Sticer of white</div>
+                <button>+Add Project</button>
+            </div>
+            <div class="products-name">NIKE</div>
+            <div class="price"></div>
+            <div class="product-color">
+                <div class="blue"></div>
+                <div class="green"></div>
+                <div class="pink"></div>
+            </div>
+        </div>
+
+
+         <div class="product-card">
+            <img src="https://www.antsylabs.com/cdn/shop/articles/should-i-buy-running-shoes-online-998538.jpg?v=1659735992" alt="" class="product-img" width="300px">
+            <div class="title">
+                <div class="text">Sticer of white</div>
+                <button>+Add Project</button>
+            </div>
+            <div class="products-name">NIKE</div>
+            <div class="price"></div>
+            <div class="product-color">
+                <div class="blue"></div>
+                <div class="green"></div>
+                <div class="pink"></div>
+            </div>
+        </div>
+
+
+         <div class="product-card">
+            <img src="https://www.antsylabs.com/cdn/shop/articles/should-i-buy-running-shoes-online-998538.jpg?v=1659735992" alt="" class="product-img" width="300px">
+            <div class="title">
+                <div class="text">Sticer of white</div>
+                <button>+Add Project</button>
+            </div>
+            <div class="products-name">NIKE</div>
+            <div class="price"></div>
+            <div class="product-color">
+                <div class="blue"></div>
+                <div class="green"></div>
+                <div class="pink"></div>
+            </div>
+        </div>
+
+
+        <div class="product-card" data-aos="fade-up" data-aos-anchor-placement="center-center">
+            <img src="https://www.antsylabs.com/cdn/shop/articles/should-i-buy-running-shoes-online-998538.jpg?v=1659735992" alt="" class="product-img" width="300px">
+            <div class="title">
+                <div class="text">Sticer of white</div>
+                <button>+Add Project</button>
+            </div>
+            <div class="products-name">NIKE</div>
+            <div class="price"></div>
+            <div class="product-color">
+                <div class="blue"></div>
+                <div class="green"></div>
+                <div class="pink"></div>
+            </div>
+        </div>
+
+        <span class="loader"></span>
     </div>
+
 </body>
 </html>
